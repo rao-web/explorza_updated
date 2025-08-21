@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!--=============== FAVICON ===============-->
+   <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+   <!--=============== REMIXICONS ===============-->
+   <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+   <!--=============== CSS ===============-->
+   <link rel="stylesheet" href="assets/css/style.css">
+
+   <title>Explorza</title>
+</head>
+<body>
+   <!--==================== HEADER ====================-->
+   <header class="header" id="header">
+      <nav class="nav container">
+         <a href="../index.html" class="nav__logo">Explorza</a>
+
+         <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+               <li class="nav__item">
+                  <a href="../index.html" class="nav__link">Home</a>
+               </li>
+               
+               <li class="nav__item">
+                  <a href="#destinations" class="nav__link active-link">Destinations</a>
+               </li>
+
+               <li class="nav__item">
+                  <a href="#bookings" class="nav__link">Bookings</a>
+               </li>
+
+               <li class="nav__item">
+                  <a href="#news" class="nav__link">News & Blogs</a>
+               </li>
+
+               <li class="nav__item">
+                  <a href="#ai-planner" class="nav__link">AI Trip Planner</a>
+               </li>
+
+            </ul>
+
+            <!-- CLOSE BTN -->
+            <div class="nav__close" id="nav-close">
+               <i class="ri-close-line"></i>
+            </div>
+         </div>
+
+         <!-- Toggle Btn -->
+         <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-fill"></i>
+         </div>
+      </nav>
+   </header>
+
+   <!-- ==================== MAIN ==================== -->
+   <main class="main">
+
+      
+      <!-- ==================== SLIDER ==================== -->
+      <section id="destinations">
+         <div class="slider-container">
+         
+         <input id="slide1" type="radio" name="group" checked>
+         <input id="slide2" type="radio" name="group">
+         <input id="slide3" type="radio" name="group">
+         <input id="slide4" type="radio" name="group">
+         <input id="slide5" type="radio" name="group">
+         <input id="slide6" type="radio" name="group">
+         <input id="slide7" type="radio" name="group">
+
+         <div class="dots">
+            <label for="slide1"></label>
+            <label for="slide2"></label>
+            <label for="slide3"></label>
+            <label for="slide4"></label>
+            <label for="slide5"></label>
+            <label for="slide6"></label>
+            <label for="slide7"></label>
+         </div>
+
+         <div class="slider">
+            <div class="slide" style="background-image: url('assets/img-des/pak.jpg')">
+               <div class="content">
+                  <h2>Pakistan</h2>
+                  <p>Discover breathtaking mountains, rich culture, and timeless history.</p>
+               </div>
+               
+            </div>
+            
+
+            <div class="slide" style="background-image: url('assets/img-des/greece.jpg')">
+               <div class="content">
+                  <h2>Greece</h2>
+                  <p>Walk through ancient ruins and soak in the blue seas.</p>
+               </div>
+               
+            </div>
+
+            <div class="slide" style="background-image: url('assets/img-des/hawaii.jpg')">
+               <div class="content">
+                  <h2>Hawaii</h2>
+                  <p>Paradise of golden beaches, volcanoes, and tropical vibes.</p>
+               </div>
+               
+            </div>
+
+            <div class="slide" style="background-image: url('assets/img-des/portugal.jpg')">
+               <div class="content">
+                  <h2>Portugal</h2>
+                  <p>Explore charming cities, coastline, and delicious cuisine.</p>
+               </div>
+               
+            </div>
+
+            <div class="slide" style="background-image: url('assets/img-des/swiss.jpg')">
+               <div class="content">
+                  <h2>Switzerland</h2>
+                  <p>Snowy Alps, serene lakes, and postcard-perfect beauty.</p>
+               </div>
+               
+            </div>
+
+            <div class="slide" style="background-image: url('assets/img-des/morocco.jpg')">
+               <div class="content">
+                  <h2>Morocco</h2>
+                  <p>A land of deserts, colorful markets, and exotic culture.</p>
+               </div>
+               
+            </div>
+
+            <div class="slide" style="background-image: url('assets/img-des/norway.jpg')">
+               <div class="content">
+                  <h2>Norway</h2>
+                  <p>Witness majestic fjords, northern lights, and endless adventures.</p>
+               </div>
+               
+            </div>
+         <div class="slide__shadow"></div>
+         </div>
+      </div>
+      </section>
+      
+      
+      <!-- /////////////////////////////////////////BOOKING////////////////////////////////////////////// -->
+<section class="bookings section" id="bookings">
+  <div class="container">
+    <div class="headerText text-center">
+      <h2 class="section__title">Our Travel Packages</h2>
+      <p>
+        Choose the perfect travel package that fits your adventure and budget.
+        Each package includes guided tours, stays, and memorable experiences.
+      </p>
+    </div>
+
+    <div class="booking-grid mt-5">
+
+      <!-- Basic Package -->
+      <div class="custom-card">
+        <div class="icon-box bg-basic">
+          <i class="fas fa-plane"></i>
+        </div>
+        <h3 class="card-title">Basic Package</h3>
+        <p class="card-desc">Perfect for solo or budget travelers.</p>
+        <ul class="card-list">
+          <li><i class="fas fa-check"></i>3 Nights Stay</li>
+          <li><i class="fas fa-check"></i>City Sightseeing</li>
+          <li><i class="fas fa-check"></i>Breakfast Included</li>
+        </ul>
+        <a href="destinations.html" class="button">Book Now <i class="ri-arrow-right-line"></i></a>
+      </div>
+
+      <!-- Standard Package -->
+      <div class="custom-card">
+        <div class="icon-box bg-standard">
+          <i class="fas fa-hotel"></i>
+        </div>
+        <h3 class="card-title">Standard Package</h3>
+        <p class="card-desc">Best for families & couples who want comfort.</p>
+        <ul class="card-list">
+          <li><i class="fas fa-check"></i>5 Nights Stay</li>
+          <li><i class="fas fa-check"></i>Guided Tours</li>
+          <li><i class="fas fa-check"></i>Meals Included</li>
+        </ul>
+        <a href="destinations.html" class="button">Book Now <i class="ri-arrow-right-line"></i></a>
+      </div>
+
+      <!-- Premium Package -->
+      <div class="custom-card">
+        <div class="icon-box bg-premium">
+          <i class="fas fa-crown"></i>
+        </div>
+        <h3 class="card-title">Premium Package</h3>
+        <p class="card-desc">Luxury experience with all-inclusive services.</p>
+        <ul class="card-list">
+          <li><i class="fas fa-check"></i>7 Nights Stay</li>
+          <li><i class="fas fa-check"></i>Luxury Hotels</li>
+          <li><i class="fas fa-check"></i>All Meals + Transport</li>
+        </ul>
+        <a href="destinations.html" class="button">Book Now <i class="ri-arrow-right-line"></i></a>
+      </div>
+
+      <!-- Adventure Package -->
+      <div class="custom-card">
+        <div class="icon-box bg-basic">
+          <i class="fas fa-hiking"></i>
+        </div>
+        <h3 class="card-title">Adventure Package</h3>
+        <p class="card-desc">Thrill seekers’ favorite package.</p>
+        <ul class="card-list">
+          <li><i class="fas fa-check"></i>Mountain Trekking</li>
+          <li><i class="fas fa-check"></i>Camping</li>
+          <li><i class="fas fa-check"></i>Adventure Sports</li>
+        </ul>
+        <a href="destinations.html" class="button">Book Now <i class="ri-arrow-right-line"></i></a>
+      </div>
+
+      <!-- Honeymoon Package -->
+      <div class="custom-card">
+        <div class="icon-box bg-standard">
+          <i class="fas fa-heart"></i>
+        </div>
+        <h3 class="card-title">Honeymoon Package</h3>
+        <p class="card-desc">Romantic getaways for couples.</p>
+        <ul class="card-list">
+          <li><i class="fas fa-check"></i>Luxury Suites</li>
+          <li><i class="fas fa-check"></i>Candlelight Dinners</li>
+          <li><i class="fas fa-check"></i>Private Tours</li>
+        </ul>
+        <a href="destinations.html" class="button">Book Now <i class="ri-arrow-right-line"></i></a>
+      </div>
+
+      <!-- Business Package -->
+      <div class="custom-card">
+        <div class="icon-box bg-premium">
+          <i class="fas fa-briefcase"></i>
+        </div>
+        <h3 class="card-title">Business Package</h3>
+        <p class="card-desc">Travel packages tailored for professionals.</p>
+        <ul class="card-list">
+          <li><i class="fas fa-check"></i>5-Star Hotels</li>
+          <li><i class="fas fa-check"></i>Conference Rooms</li>
+          <li><i class="fas fa-check"></i>Airport Transfers</li>
+        </ul>
+        <a href="#" class="button">Book Now <i class="ri-arrow-right-line"></i></a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- /////////////////////////////////////////NEWS & BLOGS////////////////////////////////////////////// -->
+<section class="news section" id="news">
+  <div class="container">
+    <div class="headerText text-center">
+      <h2 class="section__title">Latest News & Blogs</h2>
+      <p>
+        Stay updated with our latest travel news, tips, and blog posts. 
+        Explore stories from around the world written by our travelers.
+      </p>
+    </div>
+
+    <div class="news-grid mt-5">
+      <!-- Blog 1 -->
+      <div class="news-card">
+        <img src="assets/img-des/blog1.jpg" alt="Blog 1" class="news-img">
+        <div class="news-content">
+          <h3 class="news-title">Top 10 Destinations for 2025</h3>
+          <p class="news-desc">Discover the most trending places to visit this year, from beaches to mountains.</p>
+          <a href="#" class="button">Read More <i class="ri-arrow-right-line"></i></a>
+        </div>
+      </div>
+
+      <!-- Blog 2 -->
+      <div class="news-card">
+        <img src="assets/img-des/blog2.jpg" alt="Blog 2" class="news-img">
+        <div class="news-content">
+          <h3 class="news-title">Travel Hacks for Budget Trips</h3>
+          <p class="news-desc">Smart tips to save money while enjoying your dream vacation to the fullest.</p>
+          <a href="#" class="button">Read More <i class="ri-arrow-right-line"></i></a>
+        </div>
+      </div>
+
+      <!-- Blog 3 -->
+      <div class="news-card">
+        <img src="assets/img-des/blog3.jpg" alt="Blog 3" class="news-img">
+        <div class="news-content">
+          <h3 class="news-title">Adventure Travel Guide</h3>
+          <p class="news-desc">All you need to know about trekking, hiking, and adventure activities worldwide.</p>
+          <a href="#" class="button">Read More <i class="ri-arrow-right-line"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- /////////////////////////////////////////AI-TRIP PLANNER////////////////////////////////////////////// -->
+
+<section class="ai-planner section" id="ai-planner">
+  <div class="container ai-layout">
+    
+    <div class="ai-image">
+      <img src="assets/img-des/ai-planner.jpg" alt="AI Trip Planner">
+    </div>
+    
+    <div class="ai-text">
+      <h2 class="section__title">AI Trip Planner</h2>
+      <p>Plan smarter journeys with Artificial Intelligence. Get personalized routes, budget insights, and instant suggestions.</p>
+      
+      <ul class="ai-features">
+        <li><i class="ri-check-line"></i> Personalized itineraries</li>
+        <li><i class="ri-check-line"></i> Smart budgeting tips</li>
+        <li><i class="ri-check-line"></i> Real-time travel updates</li>
+      </ul>
+      
+      <a href="#" class="button">Start Planning <i class="ri-arrow-right-line"></i></a>
+    </div>
+  </div>
+</section>
+
+      
+</main>
+   
+   <!--==================== FOOTER ====================-->
+   <footer class="footer">
+      <div class="footer__container container grid">
+         <div class="footer__content grid">
+            <div>
+               <a href="#" class="footer__logo">Explorza</a>
+               <p class="footer__description">
+                  Join us on unforgettable journeys <br>
+                  and discover the world without boundaries.
+               </p>
+            </div>
+            
+            <div class="footer__data grid">
+               <div>
+                  <h3 class="footer__title">About</h3>
+                  <ul class="footer__links">
+                     <li><a href="#" class="footer__link">About Us</a></li>
+                     <li><a href="#" class="footer__link">Features</a></li>
+                     <li><a href="#" class="footer__link">News & Blog</a></li>
+                  </ul>
+               </div>
+               
+               <div>
+                  <h3 class="footer__title">Company</h3>
+                  <ul class="footer__links">
+                     <li><a href="#" class="footer__link">FAQS</a></li>
+                     <li><a href="#" class="footer__link">History</a></li>
+                     <li><a href="#" class="footer__link">Testimonials</a></li>
+                  </ul>
+               </div>
+               
+               <div>
+                  <h3 class="footer__title">Contact</h3>
+                  <ul class="footer__links">
+                     <li><a href="#" class="footer__link">Call Center</a></li>
+                     <li><a href="#" class="footer__link">Support Center</a></li>
+                     <li><a href="#" class="footer__link">Contact Us</a></li>
+                  </ul>
+               </div>
+               
+               <div>
+                  <h3 class="footer__title">Support</h3>
+                  <ul class="footer__links">
+                     <li><a href="#" class="footer__link">Privacy Policy</a></li>
+                     <li><a href="#" class="footer__link">Terms & Services</a></li>
+                     <li><a href="#" class="footer__link">Payments</a></li>
+                  </ul>
+               </div>
+            </div>
+
+            <div class="footer__group">
+               <div class="footer__social">
+                  <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                     <i class="ri-facebook-line"></i>
+                  </a>
+                  <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                     <i class="ri-instagram-line"></i>
+                  </a>
+                  <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+                     <i class="ri-twitter-line"></i>
+                  </a>
+                  <a href="https://www.youtube.com/" target="_blank" class="footer__social-link">
+                     <i class="ri-youtube-line"></i>
+                  </a>
+               </div>
+
+               <span class="footer__copy">
+                  &#169; Copyright Hammad Ahmed. All rights reserved
+               </span>
+            </div>
+         </div>
+      </footer>
+
+      <!--========== SCROLL UP ==========-->
+      <a href="#" class="scrollup" id="scroll-up">
+         <i class="ri-arrow-up-line"></i>
+      </a>
+
+      <!--=============== SCROLLREVEAL ===============-->
+      <script src="assets/js/scrollreveal.min.js"></script>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/main.js"></script>
+   </body>
+</html>
